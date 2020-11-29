@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.header-section{
+	width: 100%;
+	background-color: #251FC9;
+	position: fixed;
+}
+
+.container{
+	width: 1110px;
+	margin: auto;
+}
+
+.header-items{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	width: 100%;
+}
+
+.header-item{
+	width: 100%;
+	display: flex;
+}
+
+.logo-img{
+	width: 120px;
+	height: 27px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.header-item a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.client-area{
+	width: 123px;
+	height: 42px;
+	background-color: #fd7e14;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.wrapper{
+	width: 100%;
+	padding-top: 70px;
+}
+
+
+.slider-section{
+	width: 100%;
+	background-color: #251FC9;
+}
+
+.slider-section-items{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 115px;
+}
+
+.slider-section-item{
+	width: 100%;
+	padding-top: 70px;
+}
+
+
+.slider-section-img{
+	width: 100%;	
+}
+
+.slider-section-img{
+	width: 540px;
+	height: 470px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.discount{
+	width: 275px;
+	height: 30px;
+	background-color: #17a2b8;
+	color: white;
+	font-size: 15px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-section-item >h1{
+	color: white;
+	font-size: 45px;
+	padding-top: 30px;
+}
+
+.slider-section-item >h2{
+	color: white;
+	font-size: 17px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.get-started{
+	width: 180px;
+	height: 52px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #fd7e14;
+}
+
+.slider-section-item a{
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.domain-name-section{
+	width: 100%;
+}
+
+.domain-name-items{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.domain-name-item{
+	width: 730px;
+	height: 253px;
+	background-color: lightgray;
+	border-radius: 20px;
+	position: absolute;
+	top: -100px;
+}
+
+.best-hosting-section{
+	width: 100%;
+}
+
+.best-hosting-items{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.best-hosting-item{
+	width: 730px;
+	height: 300px;
+}
+
+.best-hosting h2{
+	font-size: 50px;
+}
